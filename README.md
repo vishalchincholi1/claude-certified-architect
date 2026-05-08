@@ -65,20 +65,36 @@ Manage context effectively in production systems. Covers:
 
 ```
 claude-certified-architect/
-├── README.md                    # This file
-├── agent.py                     # Domain 1 & 2: Agentic loop + tool orchestration
-├── api_check.py                 # Domain 3 & 5: Configuration & environment validation
-├── domain-1/                    # Agentic Architecture examples
+├── README.md                           # This file
+├── agent.py                            # Domain 1 & 2: Agentic loop + tool orchestration
+├── api_check.py                        # Domain 3 & 5: Configuration & environment validation
+├── scenario-1-customer-support.md      # Scenario 1: Customer Support Agent (Domains 1, 2, 5)
+├── domain-1/                           # Agentic Architecture examples
 │   └── [future additions]
-├── domain-2/                    # Tool Design & MCP examples
+├── domain-2/                           # Tool Design & MCP examples
 │   └── [future additions]
-├── domain-3/                    # Claude Code Configuration examples
+├── domain-3/                           # Claude Code Configuration examples
 │   └── [future additions]
-├── domain-4/                    # Prompt Engineering examples
+├── domain-4/                           # Prompt Engineering examples
 │   └── [future additions]
-└── domain-5/                    # Context Management examples
+└── domain-5/                           # Context Management examples
     └── [future additions]
 ```
+
+## 🎯 Exam Scenarios
+
+### Scenario 1: Customer Support Resolution Agent
+**Primary Domains:** Agentic Architecture & Orchestration, Tool Design & MCP Integration, Context Management & Reliability
+
+A complete customer support agent handling returns, billing disputes, and account issues with 80%+ first-contact resolution.
+
+**Key Features:**
+- Agentic loop with tool orchestration
+- Structured error handling and escalation
+- Context management patterns
+- Anti-pattern avoidance strategies
+
+**Documentation:** [`scenario-1-customer-support.md`](scenario-1-customer-support.md)
 
 ---
 
